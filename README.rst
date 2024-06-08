@@ -1,117 +1,71 @@
-Bootcamp
-========
-
-An enterprise oriented social network
-
-.. image:: https://travis-ci.org/vitorfs/bootcamp.svg?branch=master
-    :target: https://travis-ci.org/vitorfs/bootcamp
-    :alt: TravisCI Status
-
-.. image:: https://coveralls.io/repos/github/vitorfs/bootcamp/badge.svg?branch=master
-    :target: https://coveralls.io/github/vitorfs/bootcamp?branch=master
-    :alt: Coverage
-
-.. image:: https://requires.io/github/vitorfs/bootcamp/requirements.svg?branch=master
-    :target: https://requires.io/github/vitorfs/bootcamp/requirements/?branch=master
-    :alt: Requirements
-
-.. image:: https://img.shields.io/badge/built%20with-Cookiecutter%20Django-ff69b4.svg
-    :target: https://github.com/pydanny/cookiecutter-django/
-    :alt: Built with Cookiecutter Django
-
-:License: MIT
-
-Bootcamp is an open source **enterprise social network** of open purpose, on which you can build for your own ends.
-
-The project has four basic apps:
-
-* News (A Twitter-like microblog)
-* Articles (A collaborative blog)
-* Question & Answers (A Stack Overflow-like platform)
-* Messenger (A basic chat-a-like tool for asynchronous communication.)
-
-Technology Stack
-----------------
-
-* Python_ 3.6.x / 3.7.x
-* `Django Web Framework`_ 2.2.x
-* PostgreSQL_
-* `Redis 5.0`_
-* Daphne_
-* Caddy_
-* Docker_
-* docker-compose_
-* WhiteNoise_
-* `Twitter Bootstrap 4`_
-* `jQuery 3`_
-* Django-channels_ (for WebSockets)
-* Sentry_
-* Mailgun_
-* Cookiecutter_
-
-.. _Python: https://www.python.org/
-.. _`Django Web Framework`: https://www.djangoproject.com/
-.. _PostgreSQL: https://www.postgresql.org/
-.. _`Redis 5.0`: https://redis.io/documentation
-.. _Daphne: https://github.com/django/daphne/
-.. _Caddy: https://caddyserver.com/docs
-.. _Docker: https://docs.docker.com/
-.. _docker-compose: https://docs.docker.com/compose/
-.. _WhiteNoise: http://whitenoise.evans.io/en/stable/
-.. _`Twitter Bootstrap 4`: https://getbootstrap.com/docs/4.0/getting-started/introduction/
-.. _`jQuery 3`: https://api.jquery.com/
-.. _Django-channels: https://channels.readthedocs.io/en/latest/
-.. _Sentry: https://docs.sentry.io/
-.. _Mailgun: https://www.mailgun.com/
-.. _Cookiecutter: http://cookiecutter-django.readthedocs.io/en/latest/index.html
-
-Basic Commands
---------------
-
-Test coverage
-^^^^^^^^^^^^^
-
-To run the tests, check your test coverage, and generate a simplified coverage report::
-
-    $ pytest
-
-To generate an HTML report::
-
-    $ coverage html
-    $ open htmlcov/index.html
-
-To check the report in console::
-
-    $ coverage report -m
-
-Sentry
-^^^^^^
-
-Sentry is an error logging aggregator service. You can `sign up`_ for a free account  or download and host it yourself.
-The system is setup with reasonable defaults, including 404 logging and integration with the WSGI application.
-
-.. _`sign up`: https://sentry.io/signup/?code=cookiecutter
-
-You must set the DSN url in production.
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">新兵训练营</font></font></h1><a id="user-content-bootcamp" class="anchor" aria-label="永久链接：训练营" href="#bootcamp"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">面向企业的社交网络</font></font></p>
+<a href="https://travis-ci.org/vitorfs/bootcamp" rel="nofollow"><img alt="TravisCI 状态" src="https://camo.githubusercontent.com/d77e766a9089d232b1fea0e07924ae353cb6d15ab85c35c70c9b1552c58c79e0/68747470733a2f2f7472617669732d63692e6f72672f7669746f7266732f626f6f7463616d702e7376673f6272616e63683d6d6173746572" data-canonical-src="https://travis-ci.org/vitorfs/bootcamp.svg?branch=master" style="max-width: 100%;"></a>
+<a href="https://coveralls.io/github/vitorfs/bootcamp?branch=master" rel="nofollow"><img alt="覆盖范围" src="https://camo.githubusercontent.com/ad66650fa6afb87eac7aa56619d6671bb2aa8ed1482c25996de916dff32c799a/68747470733a2f2f636f766572616c6c732e696f2f7265706f732f6769746875622f7669746f7266732f626f6f7463616d702f62616467652e7376673f6272616e63683d6d6173746572" data-canonical-src="https://coveralls.io/repos/github/vitorfs/bootcamp/badge.svg?branch=master" style="max-width: 100%;"></a>
+<a href="https://requires.io/github/vitorfs/bootcamp/requirements/?branch=master" rel="nofollow"><img alt="要求" src="https://camo.githubusercontent.com/fe17dcc0bc08a3f9d47cc6318d0642d125c77820d4bc7b3835fa6453e3aaeb03/68747470733a2f2f72657175697265732e696f2f6769746875622f7669746f7266732f626f6f7463616d702f726571756972656d656e74732e7376673f6272616e63683d6d6173746572" data-canonical-src="https://requires.io/github/vitorfs/bootcamp/requirements.svg?branch=master" style="max-width: 100%;"></a>
+<a href="https://github.com/pydanny/cookiecutter-django/"><img alt="使用 Cookiecutter Django 构建" src="https://camo.githubusercontent.com/aa462a2b998787afc0b4b069226a89bb4b3b1a17b0d55e427f9ef98700348f32/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6275696c74253230776974682d436f6f6b6965637574746572253230446a616e676f2d6666363962342e737667" data-canonical-src="https://img.shields.io/badge/built%20with-Cookiecutter%20Django-ff69b4.svg" style="max-width: 100%;">
+</a>
+<table frame="void" rules="none">
 
 
-Deployment
-----------
+<tbody valign="top">
+<tr><th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执照：</font></font></th><td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">麻省理工学院</font></font></td>
+</tr>
+</tbody>
+</table>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bootcamp 是一个开放源码的</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">企业社交网络</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，你可以在其上构建你自己的目标。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该项目有四个基本应用程序：</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">新闻（类似 Twitter 的微博）</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文章（协作博客）</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">问答（类似 Stack Overflow 的平台）</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Messenger（一种用于异步通信的基本聊天工具。）</font></font></li>
+</ul>
+<a name="user-content-technology-stack"></a>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">技术堆栈</font></font></h2><a id="user-content-technology-stack" class="anchor" aria-label="固定链接：技术堆栈" href="#technology-stack"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://www.python.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Python</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 3.6.x / 3.7.x</font></font></li>
+<li><a href="https://www.djangoproject.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Django Web 框架</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2.2.x</font></font></li>
+<li><a href="https://www.postgresql.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PostgreSQL</font></font></a></li>
+<li><a href="https://redis.io/documentation" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Redis 5.0</font></font></a></li>
+<li><a href="https://github.com/django/daphne/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">芫</font></font></a></li>
+<li><a href="https://caddyserver.com/docs" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">球童</font></font></a></li>
+<li><a href="https://docs.docker.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Docker</font></font></a></li>
+<li><a href="https://docs.docker.com/compose/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">docker-compose</font></font></a></li>
+<li><a href="http://whitenoise.evans.io/en/stable/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">白噪音</font></font></a></li>
+<li><a href="https://getbootstrap.com/docs/4.0/getting-started/introduction/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Twitter Bootstrap 4</font></font></a></li>
+<li><a href="https://api.jquery.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jQuery 3</font></font></a></li>
+<li><a href="https://channels.readthedocs.io/en/latest/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Django-channels</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（用于 WebSockets）</font></font></li>
+<li><a href="https://docs.sentry.io/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">哨兵</font></font></a></li>
+<li><a href="https://www.mailgun.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">邮件枪</font></font></a></li>
+<li><a href="http://cookiecutter-django.readthedocs.io/en/latest/index.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">饼干切割器</font></font></a></li>
+</ul>
+<a name="user-content-basic-commands"></a>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">基本命令</font></font></h2><a id="user-content-basic-commands" class="anchor" aria-label="固定链接：基本命令" href="#basic-commands"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<a name="user-content-test-coverage"></a>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">测试覆盖率</font></font></h3><a id="user-content-test-coverage" class="anchor" aria-label="永久链接：测试覆盖率" href="#test-coverage"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要运行测试，检查测试覆盖率，并生成简化的覆盖率报告：</font></font></p>
+<pre><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">$ pytest
+</font></font></pre>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要生成 HTML 报告：</font></font></p>
+<pre><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">$ 覆盖 html</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+$ 打开 htmlcov/index.html</font></font><font></font>
+</pre>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要在控制台中检查报告：</font></font></p>
+<pre><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">$ 覆盖率报告 -m
+</font></font></pre>
+<a name="user-content-id1"></a>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">哨兵</font></font></h3><a id="user-content-sentry" class="anchor" aria-label="固定链接：哨兵" href="#sentry"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Sentry 是一种错误日志聚合服务。您可以</font></font><a href="https://sentry.io/signup/?code=cookiecutter" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注册</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一个免费帐户，也可以自行下载并托管。该系统的默认设置合理，包括 404 日志记录和与 WSGI 应用程序的集成。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您必须在生产中设置 DSN URL。</font></font></p>
+<a name="user-content-deployment"></a>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">部署</font></font></h2><a id="user-content-deployment" class="anchor" aria-label="永久链接：部署" href="#deployment"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">下面详细介绍如何部署此应用程序。</font></font></p>
+<a name="user-content-heroku"></a>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Heroku</font></font></h3><a id="user-content-heroku" class="anchor" aria-label="永久链接：Heroku" href="#heroku"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参阅详细的</font></font><a href="http://cookiecutter-django.readthedocs.io/en/latest/deployment-on-heroku.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">cookiecutter-django Heroku 文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<a name="user-content-id2"></a>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Docker</font></font></h3><a id="user-content-docker" class="anchor" aria-label="永久链接：Docker" href="#docker"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参阅详细的</font></font><a href="http://cookiecutter-django.readthedocs.io/en/latest/deployment-with-docker.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">cookiecutter-django Docker 文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
-The following details how to deploy this application.
-
-
-Heroku
-^^^^^^
-
-See detailed `cookiecutter-django Heroku documentation`_.
-
-.. _`cookiecutter-django Heroku documentation`: http://cookiecutter-django.readthedocs.io/en/latest/deployment-on-heroku.html
-
-
-Docker
-^^^^^^
-
-See detailed `cookiecutter-django Docker documentation`_.
-
-.. _`cookiecutter-django Docker documentation`: http://cookiecutter-django.readthedocs.io/en/latest/deployment-with-docker.html
+</article></div>
