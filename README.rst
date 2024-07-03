@@ -1,12 +1,4 @@
-src="https://camo.githubusercontent.com/d77e766a9089d232b1fea0e07924ae353cb6d15ab85c35c70c9b1552c58c79e0/68747470733a2f2f7472617669732d63692e6f72672f7669746f7266732f626f6f7463616d702e7376673f6272616e63683d6d6173746572" data-canonical-src="https://travis-ci.org/vitorfs/bootcamp.svg?branch=master" style="max-width: 100%;"></a>
-<a href="https://coveralls.io/github/vitorfs/bootcamp?branch=master" rel="nofollow"><img alt="覆盖范围" src="https://camo.githubusercontent.com/ad66650fa6afb87eac7aa56619d6671bb2aa8ed1482c25996de916dff32c799a/68747470733a2f2f636f766572616c6c732e696f2f7265706f732f6769746875622f7669746f7266732f626f6f7463616d702f62616467652e7376673f6272616e63683d6d6173746572" data-canonical-src="https://coveralls.io/repos/github/vitorfs/bootcamp/badge.svg?branch=master" style="max-width: 100%;"></a>
-<a href="https://requires.io/github/vitorfs/bootcamp/requirements/?branch=master" rel="nofollow"><img alt="要求" src="https://camo.githubusercontent.com/fe17dcc0bc08a3f9d47cc6318d0642d125c77820d4bc7b3835fa6453e3aaeb03/68747470733a2f2f72657175697265732e696f2f6769746875622f7669746f7266732f626f6f7463616d702f726571756972656d656e74732e7376673f6272616e63683d6d6173746572" data-canonical-src="https://requires.io/github/vitorfs/bootcamp/requirements.svg?branch=master" style="max-width: 100%;"></a>
-<a href="https://github.com/pydanny/cookiecutter-django/"><img alt="使用 Cookiecutter Django 构建" src="https://camo.githubusercontent.com/aa462a2b998787afc0b4b069226a89bb4b3b1a17b0d55e427f9ef98700348f32/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6275696c74253230776974682d436f6f6b6965637574746572253230446a616e676f2d6666363962342e737667" data-canonical-src="https://img.shields.io/badge/built%20with-Cookiecutter%20Django-ff69b4.svg" style="max-width: 100%;">
-</a>
-<table frame="void" rules="none">
 
-
-<tbody valign="top">
 <tr><th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执照：</font></font></th><td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">麻省理工学院</font></font></td>
 </tr>
 </tbody>
